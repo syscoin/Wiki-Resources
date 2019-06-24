@@ -63,7 +63,7 @@ You will see the Issue New Token form with 9 fields:
   
 ![](https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Precision.png)   
 * _Precision_ is the number of units that your token can be divisible by.  
-> EXAMPLEs:
-> Precision 0 = Units cannot be divided and will br represented by whole numbers only
-> Precision 8 = Units can be divided into units of 0.00000001 of the whole, exactly like Bitcoin.
+> EXAMPLE:  
+> Precision 0 = Units cannot be divided and will br represented by whole numbers only  
+> Precision 8 = Units can be divided into units of 0.00000001 of the whole, exactly like Bitcoin.  
 </details>
