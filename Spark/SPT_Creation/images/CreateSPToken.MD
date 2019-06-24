@@ -58,3 +58,9 @@ You will see the Issue New Token form with 9 fields:
 * These can only be distributed using the _Distribute Tokens_ function.  
 
 </details>
+
+<details><summary>7. Precision</summary>
+  
+![](https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Precision.png)  
+
+</details>
