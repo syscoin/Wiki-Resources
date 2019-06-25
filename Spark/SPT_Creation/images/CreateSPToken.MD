@@ -107,6 +107,7 @@ _Maximum Supply_ is a number you set as the maximum number of your tokens that c
 
 <details><summary>7. Update Flags</summary>  
 
+![](https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/UpdateFlags.png)  
 _Update Flags_ set editable token parameters. Each permission flag has a unique number, the sum of which define  parameters the owner can change after token creation. 
  
 | FLAG | EDITABLE |   
@@ -124,5 +125,24 @@ _Update Flags_ set editable token parameters. Each permission flag has a unique 
 > 10 _(2+8=10)_ = Can edit public field and update supply but no other permissions.  
 >
 > 31 _(1+2+4+8+16)_ = Full permissions.
+
+</details>
+
+<details><summary>8. Witness</summary>  
+
+![](https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Witness.png)  
+_Witness_ is a Syscoin address that will sign as a witness to the creation of the token for web-of-trust notarization of this transaction.
+* This is NOT a REQUIRED field.  
+</details>
+
+<details><summary>9. Contract</summary>  
+
+![](https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Contract.png)  
+_Contract_ is the address for the Ethereum token contract used on the Ethereum side of the Syscoin Bridge. 
+* This is NOT a REQUIRED field.  
+* Must be in hex and not include the '0x' format tag.  
+* Leave empty for no smart contract bridge.  
+> Example: contract '0xb060ddb93707d2bc2f8bcc39451a5a28852f8d1d' should be set as:  
+>'b060ddb93707d2bc2f8bcc39451a5a28852f8d1d'. 
 
 </details>
