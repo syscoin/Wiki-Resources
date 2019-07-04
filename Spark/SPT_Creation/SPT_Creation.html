@@ -1,0 +1,135 @@
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/IssueNewTokenScreen.png" alt="" /></p>
+<h1>Creating an SPT Token on Spark</h1>
+<h2>INSTRUCTIONS (CLICK TO EXPAND)</h2>
+<details><summary>Install Spark wallet</summary>
+<ul>
+<li>Go to https://github.com/blockchainfoundryinc/syscoin-spark-wallet/releases<br />
+download and install the latest Spark wallet.</li>
+<li>Let the Spark wallet synchronise with the Syscoin 4 Blockchain.</li>
+<li>Fund your Spark wallet with at least 1 Syscoin.<br />
+Syscoin can be purchased at <a href="https://international.bittrex.com/Market/Index?MarketName=BTC-SYS">Bittrex</a>, <a href="https://www.binance.com/en/trade/SYS_BTC">Binance</a>, <a href="https://flyp.me/">Flyp.me</a> or <a href="https://changelly.com/">Changelly</a></li>
+</ul>
+</details>
+<details><summary>Complete the Create Token Form</summary>
+<ul>
+<li>Go to the Create Token Dialogue in the main menu.<br />
+<img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/CreateTokenMenu.png" alt="" /><br />
+You will see the Issue New Token form with 9 fields:
+<img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/IssueNewTokenDialogue.png" alt="" /></li>
+<li>You will need to complete each field of this form with the specifications and parameters of your token.</li>
+</ul>
+<h4>More information on each form field is detailed below:</h4>
+<hr />
+</details>
+<h3>FORM FIELD DETAILS</h3>
+<details><summary>1. Token Symbol</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/SymbolField.png" alt="" /></p>
+<p>The <em>Token Symbol</em> field is a 3 to 8 character alphanumeric string used to identify your token on exchanges, wallets, block explorers and any application that supports SPT's. Symbols may contain letters or numbers only. All Symbols must be uppercase and not contain any special characters.</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>Some exchanges support a maximum of 5 characters.</li>
+</ul>
+<blockquote>
+<p>Examples:<br />
+<code>aA&amp;</code> - is not a valid Symbol<br />
+<code>APX12</code> - is a valid Symbol</p>
+</blockquote>
+</details>
+<details><summary>2. Public Value</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/PublicValue.png" alt="" /></p>
+<p><em>Public Value</em> is a text string that includes any information you would like quickly and easily accessible to users through block explorers, wallets or other applications that support SPT's that gives details about your token, such as a short description or reason for creation.</p>
+<ul>
+<li>This is NOT a REQUIRED field.</li>
+<li>Up to a maximum of 256 characters.</li>
+</ul>
+</details>
+<details><summary>3. Owner Address</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/OwnerAddress.png" alt="" /></p>
+<p><em>Owner Address</em> is the address used to fund the creation of your token, and the owner of the allocation of tokens created in the <em>Initial Supply of Asset</em>.</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>The dropdown will show only Syscoin addresses with a balance large enough to create a token.</li>
+<li>Choose one of the addresses in the dropdown.</li>
+</ul>
+</details>
+<details><summary>4. Initial Supply</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/InitialSupply.png" alt="" /></p>
+<p><em>Initial Supply</em> is the number of tokens created in the initial allocation, when you first create the token.</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>These MUST NOT EXCEED the number of tokens in <em>Maximum Supply</em>.</li>
+<li>These WILL NOT appear in the <em>My Tokens</em> page, but in the <em>Distribute Tokens</em> page.</li>
+<li>These can only be distributed using the <em>Distribute Tokens</em> function.</li>
+</ul>
+</details>
+<details><summary>5. Precision</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Precision.png" alt="" /></p>
+<p><em>Precision</em> is the number of units that your token can be divisible by.</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>Choose a number between 0 and 8 from the dropdown.</li>
+<li>Precision also affects <em>Maximum Supply</em>. There are a maximum 18 decimal places. Precision 0 will allow 9^18 indivisible tokens, Precision 1 will allow 9^17 tokens divisible by 10, Precision 2 will allow 9^16 tokens divisible by 100 etc.</li>
+<li>Default is set to 8 (Bitcoin Precision)</li>
+</ul>
+<blockquote>
+<p>EXAMPLE:<br />
+Precision 0 = Units cannot be divided and will be represented by whole numbers only.<br />
+Precision 8 = Units can be divided into units of 0.00000001 of the whole, exactly like Bitcoin.</p>
+</blockquote>
+</details>
+<details><summary>6. Maximum Supply</summary>
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/MaximumSupply.png" alt="" /></p>
+<p><em>Maximum Supply</em> is a number you set as the maximum number of your tokens that can ever be created.</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>You can set your maximum supply to any number between 1 and 1^18 (depending on <em>Precision</em>).</li>
+<li>Clicking the blue <em>maximum supply</em> button will autofill the form field with the the highest number allowed to be created.</li>
+<li>Your <em>Initial Supply</em> will be taken out of this number.</li>
+<li><em>Total Supply</em> can never exceed <em>Maximum Supply</em>.</li>
+</ul>
+<blockquote>
+<p>Example:
+Maximum supply = 1000000, Initial supply=1000. Total supply=1000</p>
+</blockquote>
+</details>
+<details><summary>7. Update Flags</summary>  
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/UpdateFlags.png" alt="" /><br />
+<em>Update Flags</em> set editable token parameters. Each permission flag has a unique number, the sum of which define  parameters the owner can change after token creation.</p>
+<p>| FLAG | EDITABLE |<br />
+| --- | --- |<br />
+| 1 | Admin Status |<br />
+| 2 | Can Edit Public Field |<br />
+| 4 | Can Edit Smart Contract (Ethereum) Address |
+| 8 | Can Update Supply |<br />
+| 16 | Can Change Flags (Admin Status Required) |</p>
+<ul>
+<li>This is a REQUIRED field.</li>
+<li>All flags (Full permissions, or 31) is the default setting.</li>
+</ul>
+<blockquote>
+<p>Example:
+The creator wants to be able to update total supply (mint new tokens) and the description, but does not want the  Ethereum smart contract to ever be editable, so they choose flags 2 and 8 (Can edit public field and supply) only.<br />
+10 <em>(2+8=10)</em> = Can edit public field and update supply but no other permissions.</p>
+<p>31 <em>(1+2+4+8+16)</em> = Full permissions.</p>
+</blockquote>
+</details>
+<details><summary>8. Witness</summary>  
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Witness.png" alt="" /><br />
+<em>Witness</em> is a Syscoin address that will sign as a witness to the creation of the token for web-of-trust notarization of this transaction.</p>
+<ul>
+<li>This is NOT a REQUIRED field.</li>
+</ul>
+</details>
+<details><summary>9. Contract</summary>  
+<p><img src="https://github.com/syscoin/Wiki-Resources/blob/master/Spark/SPT_Creation/images/Contract.png" alt="" /><br />
+<em>Contract</em> is the address for the Ethereum token contract used on the Ethereum side of the Syscoin Bridge.</p>
+<ul>
+<li>This is NOT a REQUIRED field.</li>
+<li>Must be in hex and not include the '0x' format tag.</li>
+<li>Leave empty for no smart contract bridge.</li>
+</ul>
+<blockquote>
+<p>Example: contract '0xb060ddb93707d2bc2f8bcc39451a5a28852f8d1d' should be set as:<br />
+'b060ddb93707d2bc2f8bcc39451a5a28852f8d1d'.</p>
+</blockquote>
+</details>
