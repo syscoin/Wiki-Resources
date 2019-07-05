@@ -1,3 +1,4 @@
+# 1. Upgrading from Syscoin 3.x to Syscoin 4.x
 
 _If you have already upgraded to Syscoin 4.0.0 successfully, you only need to install the latest version of [Syscoin 4.x](https://github.com/syscoin/syscoin/releases) and skip these steps._
 
@@ -51,7 +52,7 @@ If you have already installed Syscoin Qt 4, Spark 4 or Fusion 4, you can skip th
 <summary>Unlocking your wallet</summary>
 
 > * In Syscoin Qt 3.x go to Console: Tools->Debug Console and type:  
-> `walletpassphrase “mypasswordorpassphrase” 180`  
+> `walletpassphrase â€œmypasswordorpassphraseâ€ 180`  
 > And press ENTER (180 = this the amount of time to remain open in seconds)
 >
 > * In Blockmarket: Click the Lock icon in the upper right menu.  
@@ -70,7 +71,7 @@ If you have already installed Syscoin Qt 4, Spark 4 or Fusion 4, you can skip th
 >
 > * Unlock your wallet
 >
-> * Go to Wallet and select ‘Dump Wallet’ (Top left) and enter path to save the file:
+> * Go to Wallet and select â€˜Dump Walletâ€™ (Top left) and enter path to save the file:
 >
 > On WINDOWS type: 
 > `C:\Users\Public\sys3dump.bmwalletdump`
@@ -100,7 +101,7 @@ If you have already installed Syscoin Qt 4, Spark 4 or Fusion 4, you can skip th
 > On MAC type: 
 > `dumpwallet "/Users/[USERNAME]/Public/sys3dump.bmwalletdump"`
 > And press ENTER
-> * On some versions of QT you will get ‘null’ this means it has worked.
+> * On some versions of QT you will get â€˜nullâ€™ this means it has worked.
 * Once complete, you are done Step 1. Please move on to CHECK YOUR WORK
 </details>
 
@@ -141,7 +142,7 @@ Install and Run the latest version of [Syscoin 4.x](https://github.com/syscoin/s
 >
 Add press ENTER
 >
-> * This import will take a while (can be 10 minutes or so)and you will see ‘null’ in the console when finished.
+> * This import will take a while (can be 10 minutes or so)and you will see â€˜nullâ€™ in the console when finished.
 >
 * You can now move to FINISHING UP!
 </details>
@@ -165,7 +166,7 @@ If you have any existing syscoin.conf in your DATA FOLDER, rename it or remove i
 > `/Users/xxxxx/Public/sys3dump.bmwalletdump"`
 > And press ENTER
 >
-> * This import will take a while (can be 10 minutes or so)and you will see ‘null’ in the console when finished.
+> * This import will take a while (can be 10 minutes or so)and you will see â€˜nullâ€™ in the console when finished.
 > 
 * You can now move to FINISHING UP!
 </details>
@@ -186,7 +187,7 @@ Install and Run the latest version of [Fusion](https://github.com/syscoin/Syscoi
 > `/Users/xxxxx/Public/sys3dump.bmwalletdump"`
 > Add press ENTER
 >
-> * This import will take a while (can be 10 minutes or so)and you will see ‘null’ in the console when finished.
+> * This import will take a while (can be 10 minutes or so)and you will see â€˜nullâ€™ in the console when finished.
 >
 * You can now move to FINISHING UP!
 </details>
