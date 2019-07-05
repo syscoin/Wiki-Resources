@@ -157,6 +157,7 @@ If you have any existing syscoin.conf in your DATA FOLDER, rename it or remove i
 > * Allow it to fully sync.
 > 
 > * Go to Wallet->Import Wallet and navigate to the `sys3dump.bmwalletdump` file you created in Step 1.
+> * You may need to enter `*.*` in the filename form field, as Spark looks for .walletdump extension instead of .bmwalletdump  
 >
 > On WINDOWS, navigate to:
 > `C:\Users\Public\sys3dump.bmwalletdump`
